@@ -23,5 +23,7 @@ function updateBeers() {
   	var li = ('<li>' + "Beer: " + beers[i].name + ", Caterory: " + beers[i].category + '</li>');
   	$('.beers-list').append(li);
   }
+  $('.beer-input').val("");
+  $('.category-input').val("");
 }
 
