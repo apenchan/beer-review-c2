@@ -15,6 +15,7 @@
       <section class="beers">
         <h2>Beers</h2>
         <ul class="beers-list"></ul>
+        <button type="button" class="sort-beer-button">Sort Beer</button>
       </section>
 
       <form class="beer-form">
@@ -30,6 +31,19 @@
           <input type="text"
             class="category-input form-control"
             placeholder="Category">
+        </div>
+
+        <div class="beer-rating">
+          <div class="beer-rating-name">Beer Rating</div>
+            <select name="beer-rating-input">
+              <option value="--">--</option>
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
         </div>
         
         <button class="btn btn-primary post-beer" type="button">Post</button>
